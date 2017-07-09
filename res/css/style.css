@@ -1,0 +1,73 @@
+html {
+  font-family: Helvetica;
+}
+
+/* HEADER */
+.header {
+  height: 64px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+}
+
+.header div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 24px;
+}
+
+.header h1 {
+  font-weight: 600;
+}
+
+.academy {
+  color: #d8d8d8;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+/* TOP BANNER */
+.top-banner {
+  background-color: #d8d8d8;
+  padding-top: 64px;
+  display: inline-flex;
+  color: #4a4a4a;
+}
+
+.top-banner img {
+  width: 60%;
+  height:auto;
+  padding: 32px 40px 32px 24px;
+}
+
+.top-banner div {
+  width: 27%;
+  padding-top: 13rem;
+  line-height: 1.4;
+}
+
+.top-banner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.top-banner p {
+  margin-top: 6rem;
+}
+
+.top-banner .btn {
+  color: #d8d8d8;
+  background-color: #4a4a4a;
+  padding: 8px;
+  text-align: center;
+}
