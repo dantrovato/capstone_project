@@ -106,6 +106,7 @@ justify-content: flex-start;
   padding-left: 24px;
   padding-bottom: 32px;
   padding-right: 24px;
+  font-size: .8rem;
 }
 
 .emanuel {
@@ -203,13 +204,14 @@ justify-content: flex-start;
 
 .pics-div img {
   width: 100%;
+
 }
 
 .pics-div h3 {
   font-size: .9rem;
   font-weight: bold;
   padding-top: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
   padding-left: 16px
 }
 
@@ -218,6 +220,11 @@ justify-content: flex-start;
   padding-left: 16px;
   margin-bottom: 8px;
   font-size: .8rem;
+  line-height: 1.6
+}
+
+.pics-bottom {
+  margin-bottom: 52px;
 }
 
 /* VIDEO SECTION */
@@ -255,6 +262,7 @@ justify-content: flex-start;
 
 .main-vid-div p {
   line-height: 1.4;
+  font-size: .8rem;
 }
 
 .right-of-vid {
@@ -289,10 +297,12 @@ justify-content: flex-start;
 footer {
   display: flex;
   justify-content: space-between;
+  font-size: .8rem;
 }
 
 footer p {
   padding: 16px 0 48px 24px;
+  line-height: 1.4;
 }
 
 footer a {
