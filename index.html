@@ -3,6 +3,7 @@
   <head>
     <title>Capstone Project</title>
     <link type="text/css" rel="stylesheet" href="res/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="res/css/style.css">
   </head>
 
@@ -19,6 +20,14 @@
         <a href="#">For Companies</a>
         <a href="#">Sign in</a>
       </nav>
+
+      <!-- alternative nav for small screen -->
+      <nav class="nav-small">
+        <img src="res/img/ic-logo.svg" class="logo">
+        <i class="fa fa-hand-lizard-o"></i>
+        <i class="fa fa-bug"></i>
+        <i class="fa fa-lemon-o"></i>
+      </nav>
     </div>
 
 <!-- TOP BANNER -->
@@ -26,10 +35,13 @@
     <div class="top-banner">
 
         <img src="res/img/banner.jpg">
-
+  <!--  alt div for smaller screen -->
+        <div class="gray">
+        </div>
+  <!--  alt div for smaller screen -->
       <div class="top-right">
         <h1>Learn something new everyday</h1>
-        <p>Or just eat chocolate. we're all gonna die. everything will be lost.</p>
+        <p>Or just eat chocolate. One day everything will be lost. From dust you came, to dust you shall return.</p>
         <p class="btn">Start here</p>
       </div>
     </div>
@@ -69,6 +81,23 @@
           </div>
         </div>
       </div>
+    </div>
+
+<!--alt bottom banner for mobile screen-->
+    <div class="alt-bottom-banner">
+      <img class="alt-img" src="res/img/information-orientation-mobile.jpg">
+
+      <h3>Orientation date</h3>
+      <p>Tue 10/11 & Wed 32/55: 8am-7.59am</p>
+      <a href="#" class="breed">Breed more</a>
+      <img class="alt-img" src="res/img/information-campus-mobile.jpg">
+      <h3>Our campus</h3>
+      <p>Find which starbucks is close by you</p>
+      <a href="#" class="breed">Breed more</a>
+      <img  class="alt-img" src="res/img/information-guest-lecture-mobile.jpg">
+      <h3>Special guest lecture</h3>
+      <p>Joint a keynote with Oliver Slack about music in taxies</p>
+      <a href="#" class="breed last-breed">Breed more</a>
     </div>
 
 <!-- PICS SECTION -->
@@ -114,6 +143,18 @@
       </div>
     </div>
 
+<!-- ALT PIC SECTION-->
+    <div class="alt-pictures-section">
+      <h2>Start laerning</h2>
+      <h3>Software engineering</h3>
+      <h3>Computer art</h3>
+      <h3>Design</h3>
+      <h3>Date</h3>
+      <h3>Business</h3>
+      <h3>Marketing</h3>
+    </div>
+
+
 <!-- VID SECTION -->
     <div class="main-vid-div">
       <h2>Thesis exhibit</h2>
@@ -121,7 +162,6 @@
         <div class="vid-div">
           <video width="320" height="240" controls>
             <source src="res/img/thesis.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
               Your browser does not support the video tag.
           </video>
           <h3>Reimagine urban</h3>
@@ -144,6 +184,14 @@
           </div>
         </div>
       </div>
+    </div>
+
+  <!-- ALT VID SECTION FOR MOBILE SCREEN -->
+    <div class="alt-main-bottom">
+      <video width="320" height="240" controls>
+        <source src="res/img/thesis.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
     </div>
 
 <!-- FOOTER -->

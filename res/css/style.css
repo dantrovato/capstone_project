@@ -3,6 +3,10 @@ html {
   color: #4a4a4a;
 }
 
+p {
+  color: gray;
+}
+
 /* HEADER */
 .header {
   height: 64px;
@@ -37,6 +41,30 @@ html {
   padding: 8px;
 }
 
+.nav-small {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  .header div, nav {
+    display: none;
+  }
+
+  .logo {
+    width: 1.5rem;
+  }
+
+  .nav-small {
+    display: inline-flex;
+  }
+
+  .nav-small i, .logo {
+    padding-right: 6.6rem;
+    margin: auto;
+  }
+
+}
+
 /* TOP BANNER */
 
 .top-banner {
@@ -52,8 +80,12 @@ html {
   padding: 32px 40px 32px 24px;
 }
 
-.top-banner div {
-  width: 29%;
+.gray {
+  display: none;
+}
+
+.top-right {
+
   height: 50%;
   padding-top: 13rem;
   line-height: 1.4;
@@ -76,6 +108,42 @@ html {
   background-color: #4a4a4a;
   padding: 8px;
   text-align: center;
+}
+
+@media only screen and (max-width: 470px) {
+
+  .top-banner {
+    display: block;
+  }
+
+  .top-banner img {
+    display: none;
+  }
+
+  .gray {
+    display: block;
+    background-color: gray;
+    width: 100%;
+    min-height: 180px;
+  }
+
+  .top-banner h1, {
+    padding-top: 0;
+    width: 100%;
+
+  }
+
+  .top-right {
+    padding-left: 32px;
+    width: 90%;
+    height: 300px;
+    margin-top: -11rem;
+  }
+
+  .top-right p {
+    color: #4a4a4a;
+  }
+
 }
 
 /* BOTTOM BANNER LEFT */
@@ -115,8 +183,18 @@ justify-content: flex-start;
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 470px) {
+
+  .bottom-banner-left {
+    display: none;
+  }
+}
+
 /* BOTTOM BANNER RIGHT */
 
+ .alt-bottom-banner {
+   display: none;
+ }
 
 .bottom-banner-right {
 
@@ -124,6 +202,7 @@ justify-content: flex-start;
   background-color: white;
   margin-left: 40px;
 }
+
 .orientation, .our-campus, .our-guest {
   display: inline-flex;
   height: 30%;
@@ -177,6 +256,43 @@ justify-content: flex-start;
     padding: .8rem;
 }
 
+@media only screen and (max-width: 470px) {
+
+   .bottom-banner {
+     display: none;
+   }
+
+   .alt-bottom-banner {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .alt-bottom-banner img {
+     width: 90%;
+     margin: auto;
+     margin-top: 16px;
+   }
+
+   .alt-bottom-banner h3 {
+     padding: 24px 0 8px 40px;
+     font-weight: bold;
+   }
+
+   .alt-bottom-banner p {
+     padding-left: 40px;
+     padding-bottom: 8px;
+   }
+
+   .alt-bottom-banner a {
+     padding-left: 40px;
+   }
+
+   .last-breed {
+     padding-bottom: 32px
+   }
+
+}
+
 /* PICTURES SECTION */
 
 .pictures-section {
@@ -225,6 +341,37 @@ justify-content: flex-start;
 
 .pics-bottom {
   margin-bottom: 52px;
+}
+
+.alt-pictures-section {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  .pictures-section {
+    display: none;
+  }
+  .alt-pictures-section {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  .alt-pictures-section h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px;
+  }
+
+  .alt-pictures-section h3 {
+    background-color: #d8d8d8;
+    padding: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+
 }
 
 /* VIDEO SECTION */
@@ -294,6 +441,30 @@ justify-content: flex-start;
   justify-content: center;
 }
 
+.alt-main-bottom {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  .main-bottom {
+    display: none;
+  }
+
+  .alt-main-bottom {
+    display: block;
+  }
+
+  .alt-main-bottom video {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+
+  .main-vid-div h2 {
+    background-color: white;
+  }
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -312,4 +483,15 @@ footer a {
 
 footer div {
   padding: 16px 24px 48px 0;
+}
+
+@media only screen and (max-width: 470px) {
+
+  footer a {
+    display: none;
+  }
+
+  footer p {
+    padding: 16px;
+  }
 }
