@@ -9,12 +9,12 @@
 
   <body>
 <!-- HEADER -->
-    <div class="header">
-      <div>
-        <img src="res/img/ic-logo.svg" class="logo">
+    <header role="presentation">
+      <div role="presentation">
+        <img src="res/img/ic-logo.svg" class="logo"/>
         <h1>COLMAR<span class="academy">ACADEMY</span></h1>
       </div>
-      <nav>
+      <nav class="nav" role="presentation">
         <a href="#">On Campus</a>
         <a href="#">Onfire</a>
         <a href="#">For Companies</a>
@@ -22,60 +22,59 @@
       </nav>
 
       <!-- alternative nav for small screen -->
-      <nav class="nav-small">
-        <img src="res/img/ic-logo.svg" class="logo">
-        <i class="fa fa-hand-lizard-o"></i>
-        <i class="fa fa-bug"></i>
-        <i class="fa fa-lemon-o"></i>
+      <nav class="nav-small" role="presentation">
+       <a href="#"><i class="fa fa-hand-lizard-o"></i></a>
+       <a href="#"><i class="fa fa-bug"></i></a>
+       <a href="#"><i class="fa fa-lemon-o" a href="#"></i></a>
       </nav>
-    </div>
+    </header>
 
 <!-- TOP BANNER -->
 
-    <div class="top-banner">
+    <div class="top-banner"  role="presentation">
 
-        <img src="res/img/banner.jpg">
+        <img src="res/img/banner.jpg" alt="3 people studying"/>
   <!--  alt div for smaller screen -->
-        <div class="gray">
+        <div class="gray"  role="presentation">
         </div>
   <!--  alt div for smaller screen -->
-      <div class="top-right">
+      <div class="top-right"  role="presentation">
         <h1>Learn something new everyday</h1>
-        <p>Or just eat chocolate. One day everything will be lost. From dust you came, to dust you shall return.</p>
+        <p role="complementary">Or just eat chocolate. One day everything will be lost. From dust you came, to dust you shall return.</p>
         <p class="btn">Start here</p>
       </div>
     </div>
 
 <!-- BOTTOM BANNER -->
-    <div class="bottom-banner">
-      <div class="bottom-banner-left">
-        <img src="res/img/information-main.jpg">
+    <div class="bottom-banner" role="presentation">
+      <div class="bottom-banner-left" role="presentation">
+        <img src="res/img/information-main.jpg" alt="Man studying outdoors"/>
         <h2>It doesn't hurt to keep prancing</h2>
         <p>How does a Rabbi make tea? he brews it</p>
         <p class="emanuel">Emanuel, Sr Strategist at Firing.com</p>
       </div>
 
-      <div class="bottom-banner-right">
-        <div class="orientation">
-          <img src="res/img/information-orientation.jpg">
-          <div>
+      <div class="bottom-banner-right" role="presentation">
+        <div class="orientation role="presentation"">
+          <img src="res/img/information-orientation.jpg" alt="Students walking outside">
+          <div role="presentation">
             <h3>Orientation date</h3>
             <p>Tue 10/11 & Wed 32/55: 8am-7.59am</p>
             <a href="#" class="breed">Breed more</a>
           </div>
-        </div>
+        </div role="presentation">
         <div class="our-campus">
-          <img src="res/img/information-campus.jpg">
-          <div>
+          <img src="res/img/information-campus.jpg" alt="Students in class"/>
+          <div role="presentation">
             <h3>Our campus</h3>
             <p>Find which starbucks is close by you</p>
             <a href="#" class="breed">Breed more</a>
           </div>
         </div>
-        <div class="our-guest">
-          <img src="res/img/information-guest-lecture.jpg">
+        <div class="our-guest" role="presentation">
+          <img src="res/img/information-guest-lecture.jpg" alt="My grandad wearing a french beret">
           <div>
-            <h3>Our guest lecture</h3>
+            <h3 aria-label="Lecturer">Our guest lecture</h3>
             <p>Joint a keynote with Oliver Slack about music in taxies</p>
             <a href="#" class="breed">Breed more</a>
           </div>
@@ -84,58 +83,58 @@
     </div>
 
 <!--alt bottom banner for mobile screen-->
-    <div class="alt-bottom-banner">
-      <img class="alt-img" src="res/img/information-orientation-mobile.jpg">
+    <div class="alt-bottom-banner" role="presentation">
+      <img class="alt-img" src="res/img/information-orientation-mobile.jpg" alt="Students walking"/>
 
       <h3>Orientation date</h3>
       <p>Tue 10/11 & Wed 32/55: 8am-7.59am</p>
       <a href="#" class="breed">Breed more</a>
-      <img class="alt-img" src="res/img/information-campus-mobile.jpg">
+      <img class="alt-img" src="res/img/information-campus-mobile.jpg" alt="Students in class"/>
       <h3>Our campus</h3>
       <p>Find which starbucks is close by you</p>
       <a href="#" class="breed">Breed more</a>
-      <img  class="alt-img" src="res/img/information-guest-lecture-mobile.jpg">
+      <img  class="alt-img" src="res/img/information-guest-lecture-mobile.jpg" alt="Old fella"/>
       <h3>Special guest lecture</h3>
       <p>Joint a keynote with Oliver Slack about music in taxies</p>
       <a href="#" class="breed last-breed">Breed more</a>
     </div>
 
 <!-- PICS SECTION -->
-    <div class="pictures-section">
+    <div class="pictures-section" role="presentation">
       <h2>Start laerning</h2>
-      <div class="main-pics-div">
-        <div class="pics-div">
-          <img src="res/img/course-software.jpg"/>
+      <div class="main-pics-div" role="presentation">
+        <div class="pics-div" role="presentation">
+          <img src="res/img/course-software.jpg" alt="Pic of computers"/>
           <h3>Software engineering</h3>
           <p>COURSES</p>
           <p>Webbed hands, Mobile limbs, iOT, OCD</p>
         </div>
-        <div class="pics-div">
-          <img src="res/img/course-computer-art.jpg"/>
+        <div class="pics-div" role="presentation">
+          <img src="res/img/course-computer-art.jpg" alt="Pic of a mobile phone"/>
           <h3>Computer art</h3>
           <p>COURSES</p>
           <p>Imaging yeah yeah blah blah. imaging there's no heaven. it's easy if you fry.</p>
         </div>
-        <div class="pics-div">
-          <img src="res/img/course-design.jpg"/>
+        <div class="pics-div" role="presentation">
+          <img src="res/img/course-design.jpg" alt="Man holding camera"/>
           <h3>Design</h3>
           <p>COURSES</p>
           <p>Drug user experience. Don't do drugs. What would yo' mama say?</p>
         </div>
-        <div class="pics-div pics-bottom">
-          <img src="res/img/course-data.jpg"/>
+        <div class="pics-div" pics-bottom role="presentation">
+          <img src="res/img/course-data.jpg" alt="Laptop"/>
           <h3>Date</h3>
           <p>HORSES</p>
           <p>Bring lots of hey. And i mean LOTS</p>
         </div>
-        <div class="pics-div pics-bottom">
-          <img src="res/img/course-business.jpg"/>
+        <div class="pics-div pics-bottom" role="presentation">
+          <img src="res/img/course-business.jpg" alt="Chessboard"/>
           <h3>Business</h3>
           <p>CORSETS</p>
           <p>It's a bit of a squeeeeeeeeeeeeee eeeeeeeeeeeeeee eeeeeeee eeeeeeeeee eeeeeeeeeeeee eeeeeee eeeeeze</p>
         </div>
-        <div class="pics-div pics-bottom">
-          <img src="res/img/course-marketing.jpg"/>
+        <div class="pics-div pics-bottom"role="presentation">
+          <img src="res/img/course-marketing.jpg" alt="Showing off of a cool watch"/>
           <h3>Marketing</h3>
           <p>CURSES</p>
           <p>The art of lying. you will probably go to hell... mwahahahaha ha hahaha ha hahaha ha hahahh ah ah ahah ha</p>
@@ -144,7 +143,7 @@
     </div>
 
 <!-- ALT PIC SECTION-->
-    <div class="alt-pictures-section">
+    <div class="alt-pictures-section" role="presentation">
       <h2>Start laerning</h2>
       <h3>Software engineering</h3>
       <h3>Computer art</h3>
@@ -156,10 +155,10 @@
 
 
 <!-- VID SECTION -->
-    <div class="main-vid-div">
+    <div class="main-vid-div" role="presentation">
       <h2>Thesis exhibit</h2>
-      <div class="main-bottom">
-        <div class="vid-div">
+      <div class="main-bottom" role="presentation">
+        <div class="vid-div" role="presentation">
           <video width="320" height="240" controls>
             <source src="res/img/thesis.mp4" type="video/mp4">
               Your browser does not support the video tag.
@@ -167,16 +166,16 @@
           <h3>Reimagine urban</h3>
           <p>Yes i'm immature, i'm so very immature. Yes i'm immature, i'm so very immature. Yes i'm immature, i'm so very immature. Yes i'm immature, i'm so very immature. Yes i'm immature, i'm so very immature. Yes i'm immature, i'm so very immature.</p>
         </div>
-        <div class="right-of-vid">
-          <div class="fisma">
-            <img src="res/img/thesis-fisma.jpg"/>
-            <div class="fisma-text">
+        <div class="right-of-vid" role="presentation">
+          <div class="fisma" role="presentation">
+            <img src="res/img/thesis-fisma.jpg"/ alt="Student wielding colored pens">
+            <div class="fisma-text" role="presentation">
               <h3>Fisma: Design and</h3>
               <p>Designer showercase of new prototype product</p>
             </div>
           </div>
-          <div class="now-then">
-            <img src="res/img/thesis-now-and-then.jpg"/>
+          <div class="now-then" role="presentation">
+            <img src="res/img/thesis-now-and-then.jpg" alt="Image of New York"/>
             <div class="now-then-text">
               <h3>Now and then</h3>
               <p>Research stydy about New York; it's very busy.</p>
@@ -187,7 +186,7 @@
     </div>
 
   <!-- ALT VID SECTION FOR MOBILE SCREEN -->
-    <div class="alt-main-bottom">
+    <div class="alt-main-bottom" role="presentation">
       <video width="320" height="240" controls>
         <source src="res/img/thesis.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -196,9 +195,9 @@
 
 <!-- FOOTER -->
 
-    <footer>
+    <footer role="presentation">
       <p>&copy2016 Colmar Academy. All rights waved.</p>
-      <div>
+      <div role="presentation">
         <a href="#">Terms</a>
         <a href="#">Privates</a>
       </div>

@@ -8,7 +8,7 @@ p {
 }
 
 /* HEADER */
-.header {
+header {
   height: 64px;
   width: 100%;
   display: inline-flex;
@@ -18,7 +18,7 @@ p {
   background-color: white;
 }
 
-.header div {
+header div {
   display: inline-flex;
   align-items: center;
 }
@@ -27,7 +27,7 @@ p {
   padding-left: 24px;
 }
 
-.header h1 {
+header h1 {
   font-weight: 600;
 }
 
@@ -35,7 +35,7 @@ p {
   color: #d8d8d8;
 }
 
-.header a {
+header a {
   text-decoration: none;
   color: black;
   padding: 8px;
@@ -46,7 +46,7 @@ p {
 }
 
 @media only screen and (max-width: 470px) {
-  .header div, nav {
+  .nav, header h1 {
     display: none;
   }
 
@@ -58,9 +58,21 @@ p {
     display: inline-flex;
   }
 
-  .nav-small i, .logo {
-    padding-right: 6.6rem;
+  .nav-small a, .logo {
+    padding-right: 6.35rem;
     margin: auto;
+  }
+
+  .nav-small i {
+    transition: color 1s ease-in .200ms;
+  }
+
+  .nav-small i:hover{
+    color: lightgray;
+  }
+
+  .nav-small i:active {
+    color: red;
   }
 
 }
@@ -93,7 +105,7 @@ p {
 }
 
 .top-banner h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   font-weight: bold;
 }
 
@@ -109,6 +121,12 @@ p {
   padding: 8px;
   text-align: center;
 }
+
+.btn:hover {
+  background-color: #d8d8d8;
+  color: #4a4a4a;
+}
+
 
 @media only screen and (max-width: 470px) {
 
@@ -142,6 +160,13 @@ p {
 
   .top-right p {
     color: #4a4a4a;
+  }
+
+  .top-right .btn {
+    width: 95%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-left: -.4rem;
   }
 
 }
